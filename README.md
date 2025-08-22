@@ -14,10 +14,10 @@ Currently this app only supports renaming in the format companyName_invoiceNumbe
 
 ## Development Progress
 ### Minimum Viable Product
-- [ ] Backend AI that reads and renames invoice file
-- [ ] Frontend website (This is currently all coded by claude)
-    - [ ] Giving users place to upload invoices (should support any image type + pdf)
-    - [ ] Button for processing and downloading invoices
+- [x] Backend AI that reads and renames invoice file
+- [x] Frontend website (This is currently all coded by claude)
+    - [x] Giving users place to upload invoices (should support any image type + pdf)
+    - [x] Button for processing and downloading invoices
 
 ### TODO / Upgrades
 - [ ] Actually deploy to web
