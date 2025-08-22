@@ -90,6 +90,9 @@ def clean_company_name(company_name: str) -> str:
     
     # Remove special characters that aren't allowed in filenames
     cleaned = re.sub(r'[<>:"/\\|?*]', '', company_name)
+    # removing websites
+    cleaned = re.sub(r'^www\.', '', cleaned)
+    cleaned = re.sub(r'\.com$', '', cleaned)
     # Replace spaces and other separators with underscores
     cleaned = re.sub(r'[\s\-\.]+', '_', cleaned)
     # Remove leading/trailing underscores

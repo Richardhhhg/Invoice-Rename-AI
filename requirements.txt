@@ -1,0 +1,4 @@
+flask
+transformers==4.23
+docquery
+pydantic<2.0
